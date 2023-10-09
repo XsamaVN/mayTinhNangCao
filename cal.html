@@ -5,16 +5,17 @@
     <title>Title</title>
 </head>
 <body>
-<script src="codejs.js"></script>
+<script src="cal.js"></script>
 <table>
     <tr>
-        <td colspan="4"><input type="text" id="manhinh"></td>
+        <td colspan="5"><input type="text" id="manhinh"></td>
     </tr>
     <tr>
         <td><button onclick="nhap(1)">1</button></td>
         <td><button onclick="nhap(2)">2</button></td>
         <td><button onclick="nhap(3)">3</button></td>
         <td><button onclick="nhap('+')">+</button></td>
+        <td><button onclick="AC()">AC</button></td>
     </tr>
     <tr>
         <td><button onclick="nhap(4)">4</button></td>
@@ -29,10 +30,11 @@
         <td><button onclick="nhap('*')">*</button></td>
     </tr>
     <tr>
-        <td></td>
+        <td><button onclick="nhap('(')">(</button></td>
+        <td><button onclick="nhap(')')">)</button></td>
         <td><button onclick="nhap(0)">0</button></td>
-        <td><button onclick="bang()">=</button></td>
         <td><button onclick="nhap('/')">/</button></td>
+        <td><button onclick="bang()">=</button></td>
     </tr>
 
 </table>

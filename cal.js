@@ -4,3 +4,6 @@ function nhap(kt){
 function bang() {
     document.getElementById('manhinh').value = eval(document.getElementById('manhinh').value);
 }
+function AC() {
+    document.getElementById('manhinh').value = '';
+}
