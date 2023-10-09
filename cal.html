@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<style>
+    button{
+        height: 20px;
+        width: 30px;
+    }
+    .manhinh{
+        width: 175px;
+    }
+
+</style>
 <body>
+<H3>CACULATOR</H3>
 <script src="cal.js"></script>
 <table>
     <tr>
-        <td colspan="5"><input type="text" id="manhinh"></td>
+        <td colspan="5"><input type="text" id="manhinh" class="manhinh"></td>
     </tr>
     <tr>
         <td><button onclick="nhap(1)">1</button></td>
@@ -22,6 +33,7 @@
         <td><button onclick="nhap(5)">5</button></td>
         <td><button onclick="nhap(6)">6</button></td>
         <td><button onclick="nhap('-')">-</button></td>
+        <td><button onclick="nhap('.')">.</button></td>
     </tr>
     <tr>
         <td><button onclick="nhap(7)">7</button></td>
